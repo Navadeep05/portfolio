@@ -1,0 +1,120 @@
+#resume{
+  display: flex;
+  background-color: yellowgreen;
+  font-family: "Black Ops One", system-ui;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-left: 300px;
+  width: 500px;
+  border-radius: 10px;
+  
+}
+
+.container{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  height: 100vh;
+  position: relative;
+  padding: 20px;
+  
+}
+
+.moon{
+  background-color: rgba(255, 255, 255, 0.576);
+  font-family: "Pacifico", cursive;
+  color: black;
+  font-size: 30px;
+  padding: 10px; 
+}
+
+.emoji{
+  background-color: rgba(255, 255, 255, 0.576);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: none;
+  font-size: 100px;
+}
+
+.image{
+  background-color: rgba(255, 255, 255, 0.576);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-start:1 ;
+  grid-column-end:3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+img{
+  color: #000;
+  width: 600px;
+  height: 800px;
+}
+
+header{
+  
+  font-weight: bold;
+  font-size: 45px;  
+}
+
+.kobe{ 
+  grid-area: 2 / 3 / 3 / 5;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.576);
+  font-family: "Pacifico", cursive;
+  color:black;
+}
+
+a{
+  color: #000;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.facebook{
+  width: 30px;
+  height: 27px;
+}
+
+.instagram{
+  width: 30px;
+  height: 30px;
+}
+
+.twitter{
+  width: 30px;
+  height: 30px;
+}
+
+.skills {
+  font-size: 100px;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: black;
+  font-family:"Pacifico",cursive;
+}
+
+html{
+  background-color: #50413C;
+}
+
+.card{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editing</title>
+    
+
+    <style>
+        html{
+            background-color: #50413C;
+        }
+        .center{
+           display: flex;
+           justify-content: center;
+        }
+        
+        video{
+            width: 1000px;
+            height: 700px;
+            border: 40px  ;
+        }
+        
+        .heading > h1{
+            font-size: 200px;
+        }
+
+        h1{
+            font-size: 100px;
+            margin: 0px;
+            color: antiquewhite;
+        }
+
+        .samples{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows:1fr  ; 
+            gap: 10px;   
+        }
+        .iknow{
+            width: 800px;
+            height: 500px;
+            grid: 1 / 1 / 2 / 3;
+            margin-left: 45px;
+        
+        }
+
+        .batman{
+            width: 800px;
+            height: 500px;
+            grid: 1 / 3 / 2 / 5;
+           
+        }
+        .block{
+            display: flex;
+            position:relative;
+        }
+        .social{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 50px ;
+          }
+          
+          .facebook{
+            width: 30px;
+            height: 27px;
+          }
+          
+          .instagram{
+            width: 30px;
+            height: 30px;
+          }
+          
+          .twitter{
+            width: 30px;
+            height: 30px;
+          }
+          
+        
+    </style>
+
+</head>
+<body>
+    
+    <div class="center heading">
+            <h1><legend>Video Editing</legend></h1>
+    </div>
+
+    <div class="center">    
+        <video src="../img/intro.mp4" controls></video>
+    </div>
+
+    <div class="center">
+        <h1>My Work</h1>
+    </div>
+    <div class="block">
+        <div class="samples">
+            <video src="../img/i know.mp4" class="iknow" controls></video>
+            <video src="../img/THE BATMAN.mp4" class="batman" controls></video>
+        </div>
+   
+    </div>
+    <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100092055781046" ><img src="../img/facebook.png" alt="" class="facebook"></a>
+        <a href="https://www.instagram.com/navadeepbommarapu/" ><img src="../img/instagram-6338392_1280.webp" alt="instagram" class="instagram"></a>
+        <a href="https://twitter.com/Navadeeppppp"><img src="../img/twitter-icon.webp" alt="" class="twitter"></a>
+    </div>
+</body>
+</html>
